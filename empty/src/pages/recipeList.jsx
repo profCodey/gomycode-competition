@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import RecipeListComponent from "../components/recipe/recipeComponent";
+// import RecipeSearch from "../components/recipe/SearchCategory";
+
 
 const RecipeList = () => {
-  return (
-    <div>recipeList</div>
-  )
-}
+    return (
 
-export default RecipeList
+    <div className="recipeCatAndList">
+      {/* <RecipeSearch /> */}
+      <RecipeListComponent />
+    </div>
+  );
+};
+
+export default RecipeList;
