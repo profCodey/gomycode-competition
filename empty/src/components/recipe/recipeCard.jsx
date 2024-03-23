@@ -1,13 +1,14 @@
 import React from "react";
 import "../../App.css";
+
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faStar } from "@fortawesome/free-solid-svg-icons";
 //import { recipes } from '../../db/recipe';
 
 const RecipeCard = ({ imageUrl, chef, title, rating }) => {
   return (
-    <div className="card">
-      <img src={imageUrl} alt="Egusi" width="200px" height ="200px"/>
+    <div className="card" style={{ marginLeft: "50px", marginBottom: "30px" }}>
+      <img src={imageUrl} alt="Egusi" width="200px" height="200px" />
       <h3 className="bg-black">{title} </h3>
       <div className="cardTexts">
         <div className="cardRating">
