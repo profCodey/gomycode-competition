@@ -1,14 +1,13 @@
 
 import './App.css'
-import UserProfile from './pages/userProfile'
+
+import AppRouter from './routes/AppRouter.jsx'
 
 function App() {
 
-
   return (
     <>
-
-  <UserProfile />
+<AppRouter />
     </>
   )
 }
