@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { RecipeData } from '../components/RecipeData'
+import { RecipeData } from '../db/RecipeData';
 import { CiClock1 } from "react-icons/ci";
 import { FaClock } from "react-icons/fa6";
 import { FaClockRotateLeft } from "react-icons/fa6";
@@ -10,31 +10,31 @@ import { FaCheckCircle } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
 
 
-const RecipeDetails = () => {
+const recipeDetails = () => {
   const {id} =useParams()
 const [details,setDetails]=useState(RecipeData[id])
 
     return (
-    <div className=' flex-col w-screen h-screen w-screen bg-white-400 items-center  px-20'>
-      <div  style={{width:"100%" ,height:"400px "}} className='bg-white-200 flex rounded-lg mt-28 ' >
-        <div className='flex-1   '>
-        <img  style={{objectPosition:"center",objectFit:"cover"}} className="w-full h-full rounded-lg"src={details.image}/>
+    <div  className=' flex-col w-screen  w-screen bg-white-400 items-center  py-20 px-20'>
+      <div  style={{width:"100%" ,height:"600px "}} className='bg-white-200 flex h-screen sm:items-center flex-wrap rounded-lg mt-24 ' >
+        <div className='flex-1  '>
+        <img  style={{objectPosition:"center",objectFit:"cover"}} className="w-full  h-full  sm:w-full rounded-lg"src={details.image}/>
         </div>
-        <div className='flex-1 bg-white-200 px-10 gap-y-2'>
+        <div className='flex-1 sm:flex-col bg-white-200  items-center justify-center sm:mt-4 px-4 '>
           <h1 className='font-bold text-5xl mb-5'>{details.title}</h1>
       <h2 className='mb-6 font-bold '>{details.description}</h2>
-      <div  className='grid grid-cols-3 gap-2 h-36 mb-8'>
-        <div className='bg-white-200 flex-col items-center justify-center rounded-lg px-10 py-10'> <CiClock1 className='w-10 h-8'/> <h2>Active time</h2>{details.activeTime}</div>
-        <div className='bg-white-200  flex-col items-center rounded-lg px-10 py-10'> <FaClock  className='w-10 h-8'/> <h2>Total time</h2>{details.totalTime}</div>
-        <div className='bg-white-200  flex-col items-center justify-center rounded-lg  py-10 px-10'> <IoPeopleOutline className='w-10 h-8'/> <h2>Yield</h2>{details. yield}</div>
+      <div  className='grid grid-cols-3 gap-4 h-36 mb-8 items-center  justify-center text-center w-full mr-24'>
+        <div className='bg-white-200 flex-col items-center  justify-center rounded-lg  mr-4  '> <div className='text-center flex items-center justify-center '><CiClock1 className='w-10 ml-4 h-8 '/></div> <h2>Active time</h2>{details.activeTime}</div>
+        <div className='bg-white-200  flex-col items-center rounded-lg mr-4 '> <div className='text-center flex items-center justify-center '> <FaClock  className='w-10 h-8 ml-4'/></div><h2>Total time</h2>{details.totalTime}</div>
+        <div  className='bg-white-200  flex-col items-center justify-center  rounded-lg   mr-4'> <div className='text-center flex items-center justify-center '> <IoPeopleOutline className='w-10 h-8 ml-4'/></div> <h2>Yield</h2>{details. yield}</div>
     
       </div>
-      <div className='flex justify-center bg-slate-300 w-28 h-10 items-center rounded-lg px-4 mt-3 '><FaRegStar className='text-yellow-700' />{details.ratings}</div>
+      <div className='flex justify-center bg-slate-300 w-28 h-10 items-center rounded-lg px-4 mt-4 ml-10 '><FaRegStar className='text-yellow-700' />{details.ratings}</div>
         </div>
 
 </div>
-<div  style={{width:"100%" ,height:"550px "}} className=' flex rounded-lg  '>
-<div className=' flex-1'>
+<div  style={{width:"100%" ,height:"550px",  marginTop:"100px"}} className=' flex rounded-lg  mt-28 flex-wrap'>
+<div className=' flex-1 '>
 <h2 className='font-bold flex items-center mt-4'><FaCheckCircle className='mr-2' /> <h1 className="text-orange-400">1.STEP</h1></h2>
       <div className='font-normal border-solid border-black-200 border-b-2 pb-4'> {details.steps}</div>
       <h2 className='font-bold flex items-center mt-4'><FaCheckCircle className='mr-2'/><h1 className="text-orange-400">2.STEP</h1></h2>
@@ -61,4 +61,4 @@ const [details,setDetails]=useState(RecipeData[id])
   )
 }
 
-export default RecipeDetails
+export default recipeDetails
