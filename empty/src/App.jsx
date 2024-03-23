@@ -1,6 +1,8 @@
 
 import './App.css'
 import Navbar from './components/Nav/Navbar'
+import Footer from './components/footer/Footer'
+import Hero from './components/hero/Hero'
 import UserProfile from './pages/userProfile'
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
 
   <UserProfile />
   <Navbar/>
+  <Hero/>
+  <Footer/>
     </>
   )
 }
