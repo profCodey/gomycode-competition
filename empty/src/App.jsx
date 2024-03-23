@@ -1,5 +1,6 @@
 
 import './App.css'
+import Navbar from './components/Nav/Navbar'
 import UserProfile from './pages/userProfile'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
 
   <UserProfile />
+  <Navbar/>
     </>
   )
 }
