@@ -5,7 +5,6 @@ import CardDetails from '../components/userProfile/cardDetails'
 const UserProfile = () => {
   return (
     <div>
-  
           <Cards />
           <CardDetails />
     </div>

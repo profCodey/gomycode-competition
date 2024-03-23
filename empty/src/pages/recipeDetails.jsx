@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { RecipeData } from '../components/RecipeData'
+import { RecipeData } from '../db/RecipeData'
 import { CiClock1 } from "react-icons/ci";
 import { FaClock } from "react-icons/fa6";
 import { FaClockRotateLeft } from "react-icons/fa6";
@@ -12,7 +12,7 @@ import { FaRegStar } from "react-icons/fa";
 
 const RecipeDetails = () => {
   const {id} =useParams()
-const [details,setDetails]=useState(RecipeData[id])
+const [details, setDetails]=useState(RecipeData[id])
 
     return (
     <div className=' flex-col w-screen h-screen w-screen bg-white-400 items-center  px-20'>
