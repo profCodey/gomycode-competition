@@ -2,11 +2,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import RecipeList from "../pages/recipeList";
 import UserProfile from "../pages/userProfile";
 import RecipeDetails from "../pages/recipeDetails";
+import Navbar from "../components/Nav/Navbar";
 
 function AppRouter() {
   return (
     <BrowserRouter>
       <div className="appRouter">
+        <Navbar />
         <Routes>
           <Route path="/" element={<RecipeList />} />
           <Route path="/profile" element={<UserProfile />} />
