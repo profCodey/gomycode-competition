@@ -1,0 +1,24 @@
+import React from 'react'
+import '../../App.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+//import { recipes } from '../../db/recipe';
+
+
+const RecipeCard = ({imageUrl, chef, title, rating}) => {
+  return (
+        <div className='card'>
+            <img src={imageUrl} alt="Egusi" />
+            <h3 className="bg-black">{title} </h3>
+            <div className='cardTexts'>
+            <div className= 'cardRating'><FontAwesomeIcon icon={faStar} style={{ color: '#FFD43B' }} />
+            <p>{rating}</p>
+            </div>
+            <p className='cardChef'>{chef}</p>
+            </div>
+            
+        </div>
+  )
+}
+
+export default RecipeCard

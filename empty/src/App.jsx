@@ -1,15 +1,16 @@
 
 import './App.css'
-import UserProfile from './pages/userProfile'
+import RecipeList from './pages/recipeList'
+//import RecipeListComponent from './components/recipe/recipeListComponent'
+//import UserProfile from './pages/userProfile'
+//import RecipeList from './pages/recipeList'
 
 function App() {
 
-
   return (
-    <>
-
-  <UserProfile />
-    </>
+    <div>
+  <RecipeList/>
+    </div>
   )
 }
 

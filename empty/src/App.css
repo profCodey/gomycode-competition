@@ -1,42 +1,89 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+html{
+  overflow-x: hidden;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .card {
-  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 213px;
+  border: none;
+  border-radius: 8px;
+  font-family: Montserrat;
+}
+.card:hover {
+  cursor: pointer;
+  filter:brightness(0.9);
 }
 
-.read-the-docs {
-  color: #888;
-} */
+.card img {
+  width: 100%;
+  height: 144px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: 0.8s;
+}
+.card img:hover {
+  filter:brightness(0.9);
+}
+
+.card h3 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.card p {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 0;
+  line-height: 18px;
+}
+
+.cardTexts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 400;
+  height: 18px;
+}
+
+.cardRating {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.recipeList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px
+}
+
+.listContainer {
+  width: 60%vw;
+  margin-right: 40px;
+}
+
+
+.recipeCatAndList {
+  width: 100vw;
+  display: flex;
+}
+
+.categories {
+  width: 25%;
+  margin-left:40px;
+  margin-top: 40px;
+}
+.categories:hover {
+  cursor: pointer;
+}
+
+.search {
+  width: 60vw;
+  height: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
