@@ -1,20 +1,13 @@
-
 import './App.css'
-import Navbar from './components/Nav/Navbar'
-import Footer from './components/footer/Footer'
-import Hero from './components/hero/Hero'
-import UserProfile from './pages/userProfile'
+import AppRouter from './routes/AppRouter'
+
+
 
 function App() {
 
-
   return (
     <>
-
-  <UserProfile />
-  <Navbar/>
-  <Hero/>
-  <Footer/>
+    <AppRouter/>
     </>
   )
 }
