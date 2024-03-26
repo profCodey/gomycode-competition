@@ -1,7 +1,7 @@
 export const RecipeData = [
   //first category
   {
-    id: "1",
+    id: "0",
     title: "Beef Stew",
     ingredients: [
       ["Beef stew meat"],
@@ -29,12 +29,12 @@ export const RecipeData = [
       "Serve hot, garnished with chopped parsley if desired.",
     ],
     image:
-      "https://images.pexels.com/photos/1487511/pexels-photo-1487511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/17593641/pexels-photo-17593641/free-photo-of-close-up-of-a-bowl-of-ramen.jpeg?auto=compress&cs=tinysrgb&w=600",
     ratings: "4.6 (123)",
   },
 
   {
-    id: "2",
+    id: "1",
     title: "Macaroni and Cheese",
     ingredients: [
       "Elbow macaroni",
@@ -61,12 +61,12 @@ export const RecipeData = [
     ],
 
     image:
-      "https://images.pexels.com/photos/17300435/pexels-photo-17300435/free-photo-of-sandwich-with-chicken-and-cheese.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg?auto=compress&cs=tinysrgb&w=600",
     ratings: "4.6 (123)",
   },
 
   {
-    id: "3",
+    id: "2",
     title: "Chicken Pot Pie",
     ingredients: [
       "Chicken breast",
@@ -97,7 +97,7 @@ export const RecipeData = [
   },
 
   {
-    id: "4",
+    id: "3",
     title: "Chili Con Carne",
     ingredients: [
       "Ground beef",
@@ -127,7 +127,7 @@ export const RecipeData = [
   },
 
   {
-    id: "5",
+    id: "4",
     title: "Shepherd's Pie",
     ingredients: [
       "Ground lamb or beef",
@@ -159,7 +159,7 @@ export const RecipeData = [
   },
 
   {
-    id: "6",
+    id: "5",
     title: "Vegetable Lasagna",
     ingredients: [
       "Lasagna noodles",
@@ -184,13 +184,13 @@ export const RecipeData = [
       "Repeat layers until all ingredients are used, ending with a layer of sauce and cheese on",
     ],
     image:
-      "https://images.pexels.com/photos/1437268/pexels-photo-1437268.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/4079522/pexels-photo-4079522.jpeg?auto=compress&cs=tinysrgb&w=600",
     ratings: "4.6 (123)",
   },
 
   //second category
   {
-    id: "7",
+    id: "6",
     title: "Classic French Toast",
     ingredients: ["Bread", "Eggs", "Milk", "Cinnamon", "Vanilla extract"],
     description:
@@ -205,11 +205,11 @@ export const RecipeData = [
       "Serve hot with your favorite toppings.",
     ],
     image:
-      "https://images.pexels.com/photos/1437268/pexels-photo-1437268.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/14613467/pexels-photo-14613467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     ratings: "4.6 (123)",
   },
   {
-    id: "8",
+    id: "7",
     title: "Veggie Omelette",
     ingredients: [
       "Eggs",
@@ -233,12 +233,12 @@ export const RecipeData = [
       "Slide the omelette onto a plate and serve hot.",
     ],
     image:
-      "https://images.pexels.com/photos/1437268/pexels-photo-1437268.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6294360/pexels-photo-6294360.jpeg?auto=compress&cs=tinysrgb&w=600",
     ratings: "4.6 (123)",
   },
 
   {
-    id: "9",
+    id: "8",
     title: "Blueberry Pancakes",
     ingredients: [
       "Flour",
@@ -266,7 +266,7 @@ export const RecipeData = [
     ratings: "4.6 (123)",
   },
   {
-    id: "10",
+    id: "9",
     title: "Avocado Toast",
     ingredients: [
       "Bread",
@@ -294,7 +294,7 @@ export const RecipeData = [
     ratings: "4.6 (123)",
   },
   {
-    id: "11",
+    id: "10",
     title: "Breakfast Burrito",
     ingredients: [
       "Tortilla",
@@ -319,11 +319,11 @@ export const RecipeData = [
       "Serve hot with salsa or hot sauce if desired.",
     ],
     image:
-      "https://images.pexels.com/photos/1437268/pexels-photo-1437268.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/5848088/pexels-photo-5848088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     ratings: "4.6 (123)",
   },
   {
-    id: "12",
+    id: "11",
     title: "Eggs Benedict",
     ingredients: [
       "English muffins",
@@ -346,11 +346,11 @@ export const RecipeData = [
       "Serve immediately.",
     ],
     image:
-      "https://images.pexels.com/photos/1437268/pexels-photo-1437268.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/2122294/pexels-photo-2122294.jpeg?auto=compress&cs=tinysrgb&w=600",
     ratings: "4.6 (123)",
   },
   {
-    id: "13",
+    id: "12",
     title: "Banana Walnut Muffins",
     ingredients: ["Flour", "Bananas", "Walnuts", "Sugar", "Eggs", "Butter"],
     description:
@@ -375,7 +375,7 @@ export const RecipeData = [
   },
   //third category
   {
-    id: "14",
+    id: "13",
     title: "Caesar Salad",
     ingredients: [
       "Romaine lettuce",
@@ -401,7 +401,7 @@ export const RecipeData = [
     ratings: "4.6 (123)",
   },
   {
-    id: "15",
+    id: "14",
     title: "Grilled Chicken Wrap",
     ingredients: [
       "Grilled chicken breast",
@@ -424,11 +424,11 @@ export const RecipeData = [
       "Cut the wrap in half diagonally before serving.",
     ],
     image:
-      "https://images.pexels.com/photos/1437268/pexels-photo-1437268.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/2689419/pexels-photo-2689419.jpeg?auto=compress&cs=tinysrgb&w=600",
     ratings: "4.6 (123)",
   },
   {
-    id: "16",
+    id: "15",
     title: "Caprese Sandwich",
     ingredients: [
       "Ciabatta bread",
@@ -455,7 +455,7 @@ export const RecipeData = [
     ratings: "4.6 (123)",
   },
   {
-    id: "17",
+    id: "16",
     title: "Quinoa Salad",
     ingredients: [
       "Quinoa",
@@ -483,7 +483,7 @@ export const RecipeData = [
     ratings: "4.6 (123)",
   },
   {
-    id: "18",
+    id: "17",
     title: "Chicken Caesar Wrap",
     ingredients: [
       "Grilled chicken breast",
@@ -510,7 +510,7 @@ export const RecipeData = [
     ratings: "4.6 (123)",
   },
   {
-    id: "19",
+    id: "18",
     title: "Veggie Wrap",
     ingredients: [
       "Whole wheat tortilla",
@@ -536,7 +536,7 @@ export const RecipeData = [
     ratings: "4.6 (123)",
   },
   {
-    id: "20",
+    id: "19",
     title: "Tomato Basil Soup",
     ingredients: [
       "Tomatoes",
@@ -566,7 +566,7 @@ export const RecipeData = [
     ratings: "4.6 (123)",
   },
   {
-    id: "21",
+    id: "20",
     title: "Greek Salad",
     ingredients: [
       "Cucumber",
@@ -592,11 +592,11 @@ export const RecipeData = [
       "Serve chilled or at room temperature.",
     ],
     image:
-      "https://images.pexels.com/photos/1437268/pexels-photo-1437268.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg?auto=compress&cs=tinysrgb&w=600",
     ratings: "4.6 (123)",
   },
   {
-    id: "22",
+    id: "21",
     title: "Spaghetti Bolognese",
     ingredients: [
       "Spaghetti",
@@ -620,11 +620,11 @@ export const RecipeData = [
       "Garnish with grated Parmesan cheese and fresh basil if desired.",
     ],
     image:
-      "https://images.pexels.com/photos/1437268/pexels-photo-1437268.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/7218637/pexels-photo-7218637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     ratings: "4.6 (223)",
   },
   {
-    id: "23",
+    id: "22",
     title: "Chicken Alfredo",
     ingredients: [
       ["Fettuccine"],
@@ -653,7 +653,7 @@ export const RecipeData = [
     ratings: "4.6(123)",
   },
   {
-    id: "24",
+    id: "23",
     title: "Beef Stir-Fry",
     ingredients: [
       "Beef sirloin",
@@ -679,11 +679,11 @@ export const RecipeData = [
       "Serve hot over steamed rice.",
     ],
 
-    image: "https://images.pexels.com/photos/2181151/pexels-photo-2181151.jpeg",
+    image: "https://images.pexels.com/photos/4144234/pexels-photo-4144234.jpeg?auto=compress&cs=tinysrgb&w=600",
     ratings: "4.6 (123)",
   },
   {
-    id: "25",
+    id: "24",
     title: "Grilled Salmon",
     ingredients: [
       "Salmon fillets",
@@ -711,7 +711,7 @@ export const RecipeData = [
     ratings: "4.6 (123)",
   },
   {
-    id: "26",
+    id: "25",
     title: "Veggie Stir-Fry",
     ingredients: [
       "Broccoli",
@@ -737,11 +737,11 @@ export const RecipeData = [
       "Serve hot over steamed rice.",
     ],
     image:
-      "https://images.pexels.com/photos/1437268/pexels-photo-1437268.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/4144234/pexels-photo-4144234.jpeg?auto=compress&cs=tinysrgb&w=600",
     ratings: "4.6 (123)",
   },
   {
-    id: "27",
+    id: "26",
     title: "Shrimp Scampi",
     ingredients: [
       "Shrimp",
@@ -771,7 +771,7 @@ export const RecipeData = [
     ratings: "4.6 (123)",
   },
   {
-    id: "28",
+    id: "27",
     title: "Teriyaki Chicken",
     ingredients: [
       "Chicken thighs",
