@@ -1,6 +1,7 @@
 import React from "react";
 import RecipeListComponent from "../components/recipe/recipeComponent";
 // import RecipeSearch from "../components/recipe/SearchCategory";
+import Hero from "../components/hero/Hero";
 
 
 const RecipeList = () => {
@@ -8,6 +9,7 @@ const RecipeList = () => {
 
     <div className="recipeCatAndList">
       {/* <RecipeSearch /> */}
+<Hero/>
       <RecipeListComponent />
     </div>
   );
